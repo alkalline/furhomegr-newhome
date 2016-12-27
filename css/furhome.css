@@ -16,6 +16,9 @@
 #sect4 {
   background-image: url('../images/image4.png');
 }
+#mainmenu {
+  text-align: center;
+}
 /* All parent elements of .bg-holder must be 100% height for vertical stretch to work */
 /*html,
 body {
