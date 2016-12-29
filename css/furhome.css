@@ -73,7 +73,19 @@ p {
   font-size: 16px;
   text-align: justify;
 }
-
+.linkz {
+  background-image: url('../images/linktile.png');
+  background-size: cover;
+  min-height: 300px;
+}
+.linkz p{
+  font-family: 'Alex Brush', fantasy;
+  font-size: 40px;
+  color: #fff;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 100px;
+}
 /* All parent elements of .bg-holder must be 100% height for vertical stretch to work */
 /*html,
 body {
