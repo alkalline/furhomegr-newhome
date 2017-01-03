@@ -42,37 +42,37 @@ p {
   font-size: 18px;
   font-weight: 400;
   text-align: justify;
+  padding: 20px;
 }
-.row {
-  min-height: 200px;
+/*.row {
+  min-height: 100px;
   margin-bottom: 20px;
-}
+}*/
 .parallax-window {
-    min-height: 400px;
+    min-height: 800px;
     background: transparent;
-    margin-bottom: 30px;
+    /*margin-bottom: 15px;*/
 }
 
 #sect1 {
-  height: 100%;
   /*background-image: url('../images/image1.png');
   background-size: cover;*/
-  padding: 20px;
+  padding-top: 120px;
 }
 #sect2 {
   /*background-image: url('../images/image2.png');
   background-size: cover;*/
-  padding: 20px;
+  padding-top: 120px;
 }
 #sect3 {
   /*background-image: url('../images/image3.png');
   background-size: cover;*/
-  padding: 20px;
+  padding-top: 120px;
 }
 #sect4 {
   /*background-image: url('../images/image4.png');
   background-size: cover;*/
-  padding: 20px;
+  padding-top: 120px;
 }
 #mainmenu {
   text-align: center;
@@ -87,6 +87,7 @@ p {
 #mainmenu a, a:hover, a:active, a:visited {
   color: orange;
   text-decoration: none;
+  text-shadow: none;
 }
 
 #footer{
