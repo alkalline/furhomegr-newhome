@@ -1,7 +1,7 @@
 * {
   border: 0px solid red; }
 
-@media (min-width:1400px) {
+/*@media (min-width:1400px) {
   .container {
     width: 1370px;
   }
@@ -11,43 +11,53 @@
     line-height: 99px;
     vertical-align: middle;
   }
- }
-@media (min-width:992px) {
+ }*/
+/*@media (min-width:992px) {
  #mainmenu div {
    background-color: #fff;
    min-height: 99px;
    line-height: 99px;
    vertical-align: middle;
  }
-}
+}*/
 
 body {
+  background-color: #fff;
   background-image: url('../images/bg-main.jpg');
   background-repeat: repeat;
-  color: #333;
+  background-position: center;
+  background-attachment: fixed;
+  color: #777;
+  text-shadow: 1px 2px 1px #000;
 }
 .row {
   min-height: 200px;
   margin-bottom: 20px;
 }
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    margin-bottom: 30px;
+}
 #sect1 {
-  background-image: url('../images/image1.png');
-  background-size: cover;
+  height: 100%;
+  /*background-image: url('../images/image1.png');
+  background-size: cover;*/
   padding: 20px;
 }
 #sect2 {
-  background-image: url('../images/image2.png');
-  background-size: cover;
+  /*background-image: url('../images/image2.png');
+  background-size: cover;*/
   padding: 20px;
 }
 #sect3 {
-  background-image: url('../images/image3.png');
-  background-size: cover;
+  /*background-image: url('../images/image3.png');
+  background-size: cover;*/
   padding: 20px;
 }
 #sect4 {
-  background-image: url('../images/image4.png');
-  background-size: cover;
+  /*background-image: url('../images/image4.png');
+  background-size: cover;*/
   padding: 20px;
 }
 #mainmenu {
@@ -66,14 +76,17 @@ body {
 }
 h2 {
   font-family: 'Alex Brush', fantasy;
-  font-size: 60px;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
 }
 p {
   font-family: Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
   text-align: justify;
 }
-.linkz {
+/*.linkz {
   background-image: url('../images/linktile.png');
   background-size: cover;
   min-height: 300px;
@@ -85,7 +98,7 @@ p {
   text-align: right;
   vertical-align: middle;
   line-height: 100px;
-}
+}*/
 /* All parent elements of .bg-holder must be 100% height for vertical stretch to work */
 /*html,
 body {
