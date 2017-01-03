@@ -1,7 +1,7 @@
 * {
   border: 0px solid red; }
 
-/*@media (min-width:1400px) {
+@media (min-width:1400px) {
   .container {
     width: 1370px;
   }
@@ -11,15 +11,15 @@
     line-height: 99px;
     vertical-align: middle;
   }
- }*/
-/*@media (min-width:992px) {
+ }
+@media (min-width:992px) {
  #mainmenu div {
    background-color: #fff;
    min-height: 99px;
    line-height: 99px;
    vertical-align: middle;
  }
-}*/
+}
 
 body {
   background-color: #fff;
@@ -27,8 +27,21 @@ body {
   background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
-  color: #777;
+  color: #eee;
   text-shadow: 1px 2px 1px #000;
+}
+h2 {
+  font-family: 'Alex Brush', fantasy;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
+p {
+  background-color: rgba(0,0,0,0.15);
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
 }
 .row {
   min-height: 200px;
@@ -39,6 +52,7 @@ body {
     background: transparent;
     margin-bottom: 30px;
 }
+
 #sect1 {
   height: 100%;
   /*background-image: url('../images/image1.png');
@@ -74,63 +88,7 @@ body {
   color: orange;
   text-decoration: none;
 }
-h2 {
-  font-family: 'Alex Brush', fantasy;
-  font-size: 80px;
-  font-weight: 700;
-  text-align: center;
+
+#footer{
+  background-color: #333;
 }
-p {
-  font-family: Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: justify;
-}
-/*.linkz {
-  background-image: url('../images/linktile.png');
-  background-size: cover;
-  min-height: 300px;
-}
-.linkz p{
-  font-family: 'Alex Brush', fantasy;
-  font-size: 40px;
-  color: #fff;
-  text-align: right;
-  vertical-align: middle;
-  line-height: 100px;
-}*/
-/* All parent elements of .bg-holder must be 100% height for vertical stretch to work */
-/*html,
-body {
-  width: 100%;
-  height: 100%;
-}*/
-
-/*
-.bg-holder {
-  width: 100%;
-  height: 100%;}
-
-.bg-holder#pic1 {
-  background-image: url('../images/image1.png');}
-
-.bg-holder#pic2 {
-  background-image: url('../images/image2.png');}
-
-section {
-  max-width: 1170px;
-  text-align: center;
-  min-height: 400px;}
-*/
-
-/* the following is for use with larger screens. in the above links I can use smaller images */
-/*
-@media (min-width: 768px) {
-  .bg-holder#pic1 {
-    background-image: url('../images/image1.png');
-  }
-  .bg-holder#pic2 {
-    background-image: url('../images/image2.png');
-  }
-}
-*/
