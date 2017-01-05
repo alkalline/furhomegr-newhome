@@ -3,7 +3,7 @@
 
 @media (min-width:1400px) {
   .container {
-    width: 1370px;
+    width: 80%;
   }
   #mainmenu div {
     background-color: #fff;
@@ -20,7 +20,14 @@
    vertical-align: middle;
  }
 }
-
+.contblok{
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 6px;
+}
+.row{
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background-color: #fff;
   background-image: url('../images/bg-main.jpg');
@@ -28,61 +35,75 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: #eee;
-  text-shadow: 1px 2px 1px #000;
+  text-shadow: 1px 1px 2px #333;
 }
 h2 {
-  font-family: 'Alex Brush', fantasy;
+  font-family: 'Roboto', sans-serif;
   font-size: 80px;
-  font-weight: 700;
+  font-weight: 100;
   text-align: center;
+  color: #eee;
+  text-shadow: 1px 1px 2px #333;
+}
+@media (max-width:400px) {
+  h2{
+    font-size: 60px;
+  }
 }
 p {
-  background-color: rgba(0,0,0,0.15);
-  font-family: Helvetica, sans-serif;
-  font-size: 18px;
+  /*background-color: rgba(0,0,0,0.15);*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   text-align: justify;
   padding: 20px;
 }
-/*.row {
-  min-height: 100px;
-  margin-bottom: 20px;
-}*/
 .parallax-window {
     min-height: 800px;
-    background: transparent;
+    padding-top: 180px;
+    background: none; /*transparent -or- rgba(0,0,0,0.5)*/
     /*margin-bottom: 15px;*/
 }
-
-#sect1 {
-  /*background-image: url('../images/image1.png');
-  background-size: cover;*/
-  padding-top: 120px;
+a, a:active, a:visited{
+  color: #000;
+  text-shadow: none; }
+a.btn-shop, a.btn-shop:visited{
+  color: #000;
+  display: inline-block;
+  background-color: #e4dbd2;
+  border: 2px solid #e4dbd2;
+  border-radius: 4px;
+  padding: 35px 55px;
+  margin: 30px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+  min-width: 250px;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
-#sect2 {
-  /*background-image: url('../images/image2.png');
-  background-size: cover;*/
-  padding-top: 120px;
-}
-#sect3 {
-  /*background-image: url('../images/image3.png');
-  background-size: cover;*/
-  padding-top: 120px;
-}
-#sect4 {
-  /*background-image: url('../images/image4.png');
-  background-size: cover;*/
-  padding-top: 120px;
+a.btn-shop:hover, a.btn-shop:active{
+  background: rgba(0,0,0,0.3); /*none for true ghost btn*/
+  color: #fff;
 }
 #mainmenu {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
+  margin: 0px;
+  padding: 0px;
 }
 #mainmenu div {
   background-color: #fff;
   vertical-align: middle;
+  margin: 0px;
+  padding: 0px;
 }
 #mainmenu a, a:hover, a:active, a:visited {
   color: orange;
