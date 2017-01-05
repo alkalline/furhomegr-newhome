@@ -21,7 +21,7 @@
  }
 }
 .contblok{
-  background-color: rgba(0,0,0,0.15);
+  background-color: rgba(33, 33, 33,0.2); /* e4dbd2 -> rgba(228, 219, 210,0.25)*/
   border-radius: 6px;
 }
 .row{
@@ -35,28 +35,31 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: #eee;
-  text-shadow: 1px 1px 2px #333;
+  text-shadow: 1px 1px 2px #000;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 80px;
   font-weight: 100;
   text-align: center;
-  color: #eee;
-  text-shadow: 1px 1px 2px #333;
+  color: #fff;
+  text-shadow: 1px 2px 3px #000;
+}
+p {
+  /*background-color: rgba(0,0,0,0.15);*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: justify;
+  padding: 20px;
 }
 @media (max-width:400px) {
   h2{
     font-size: 60px;
   }
-}
-p {
-  /*background-color: rgba(0,0,0,0.15);*/
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: justify;
-  padding: 20px;
+  p{
+    font-size: 20px;
+  }
 }
 .parallax-window {
     min-height: 800px;
@@ -65,10 +68,10 @@ p {
     /*margin-bottom: 15px;*/
 }
 a, a:active, a:visited{
-  color: #000;
+  color: #333;
   text-shadow: none; }
 a.btn-shop, a.btn-shop:visited{
-  color: #000;
+  color: #333;
   display: inline-block;
   background-color: #e4dbd2;
   border: 2px solid #e4dbd2;
