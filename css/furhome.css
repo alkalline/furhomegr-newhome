@@ -274,4 +274,8 @@ a.btn-shop:hover, a.btn-shop:active{
 
 #footer{
   background-color: #333;
+  color: #fff;
+}
+#footer a{
+  color: #fff;
 }
