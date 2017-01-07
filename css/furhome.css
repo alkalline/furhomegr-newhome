@@ -38,21 +38,35 @@ body {
   text-shadow: 1px 1px 2px #000;
   margin-top: 99px;
 }
-h2 {
+h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 80px;
   font-weight: 100;
   text-align: center;
   color: #fff;
   text-shadow: 1px 2px 3px #000;
 }
-p {
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 80px;
+}
+h3 {
+  font-size: 40px;
+}
+p, .p-small {
   /*background-color: rgba(0,0,0,0.15);*/
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: 400;
   text-align: justify;
+  font-weight: 400;
   padding: 20px;
+}
+p {
+
+  font-size: 30px;
+}
+.p-small {
+  font-size: 20px;
 }
 @media (max-width:400px) {
   h2{
