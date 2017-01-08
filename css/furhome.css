@@ -1,25 +1,14 @@
-* {
-  border: 0px solid red; }
+/*border around all elements, for debugging purpose ONLY*/
+/* * {
+  border: 0px solid red; }*/
 
+/* On big screens we want content to occupy more space than the standard Bootstrap container*/
 @media (min-width:1400px) {
   .container {
-    width: 80%;
+    width: 82%;
   }
-  /*#mainmenu div {
-    background-color: #fff;
-    min-height: 99px;
-    line-height: 99px;
-    vertical-align: middle;
-  }*/
  }
-/*@media (min-width:992px) {
- #mainmenu div {
-   background-color: #fff;
-   min-height: 99px;
-   line-height: 99px;
-   vertical-align: middle;
- }
-}*/
+/* Background block under content text for readability. Client requested it OFF*/
 /*.contblok{
   background-color: rgba(33, 33, 33,0.2);
   border-radius: 6px;
@@ -30,7 +19,7 @@
 }
 body {
   background-color: #fff;
-  background-image: url('../images/bg-main.jpg');
+  background-image: url('../images/bg-main.jpg'); /* Fallback bkg img*/
   background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
@@ -62,7 +51,6 @@ p, .p-small {
   padding: 20px;
 }
 p {
-
   font-size: 30px;
 }
 .p-small {
@@ -252,25 +240,6 @@ a.btn-shop:hover, a.btn-shop:active{
         display:block !important;
     }
 }
-/*#mainmenu {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-}
-#mainmenu div {
-  background-color: #fff;
-  vertical-align: middle;
-  margin: 0px;
-  padding: 0px;
-}
-#mainmenu a, a:hover, a:active, a:visited {
-  color: orange;
-  text-decoration: none;
-  text-shadow: none;
-}*/
 
 #footer{
   background-color: #333;
