@@ -70,8 +70,7 @@ p {
 .parallax-window {
     min-height: 800px;
     padding-top: 180px;
-    background: none; /*transparent -or- rgba(0,0,0,0.5)*/
-    /*margin-bottom: 15px;*/
+    background: none;
 }
 a, a:active, a:visited{
   color: #333;
@@ -106,48 +105,34 @@ a.btn-shop:hover, a.btn-shop:active{
 	border: 0px;
 	border-bottom: 1px solid #e4dbd2;
 	background-color: rgb(255,255,255); }
-/*.navbar-inverse .navbar-nav ul {
+/*.navbar-inverse .navbar-nav ul{
   line-height: 69px;
-  min-height: 69px;
+  min-height: 99px;
   vertical-align: bottom;
 }*/
 .navbar-inverse .navbar-nav li a {
-  /*padding-top: 40px;   <---- added for line break inside the menu
+  padding-top: 22px;
   min-height: 99px;
-  max-width: 145px;*/
+  max-width: 145px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-transform: uppercase;
   font-size: 16px;
 	color: #111;
-  line-height: 69px; /*will change for line break*/
-	border-bottom: 3px solid transparent;
-/*transition: all 0.2s ease-out;*/ }
-@media (max-width:1370px) {
+  text-align: center;
+  line-height: 19px;
+	border-bottom: 4px solid transparent; }
+@media (max-width:1390px) {
   body{
     margin-top: 69px;
   }
   .navbar-inverse .navbar-nav li a {
-    line-height: 39px;
+    padding-top: 18px;
+    font-size: 15px;
+    max-width: 125px;
     padding-left: 5px;
     padding-right: 5px;
   }
-  .navbar-inverse .navbar-brand {
-    max-height: 69px;
-    height: 69px;
-    line-height: 69px;
-    display: inline-block;
-    border: 0px;
-    margin: 0px;
-    padding: 0px; }
-  .navbar-header {
-    max-height: 69px;
-    height: 69px;
-    line-height: 69px;
-    display: inline-block;
-    border: 0px;
-    margin: 0px;
-    padding: 0px; }
 }
 .navbar-inverse .navbar-nav li a:hover {
 	color: #111;
@@ -157,7 +142,7 @@ a.btn-shop:hover, a.btn-shop:active{
 	-moz-transition: all 0.2s ease-out;
 	-ms-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
-	border-bottom: 3px solid #e4dbd2; }
+	border-bottom: 4px solid #e4dbd2; }
 .navbar-inverse .navbar-brand {
   max-height: 99px;
   height: 99px;
@@ -172,7 +157,21 @@ a.btn-shop:hover, a.btn-shop:active{
   color: #000;
   align-self: right;
 }
-@media (max-width:1140px) {
+@media (max-width:1205px) {
+  .navbar-inverse .navbar-brand {
+    max-height: 69px;
+    height: 69px;
+    display: inline-block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px; }
+  .navbar-header {
+    max-height: 69px;
+    height: 69px;
+    display: inline-block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px; }
   .navbar-toggle {
     font-size: 16px;
     line-height: 16px;
@@ -182,6 +181,9 @@ a.btn-shop:hover, a.btn-shop:active{
   .navbar-inverse .navbar-nav li a {
     font-size: 16px;
     line-height: 16px;
+    max-width: none;
+    min-height: 16px;
+    padding-top: 5px;
   }
   .navbar-header {
     width: 100%;
@@ -202,9 +204,9 @@ a.btn-shop:hover, a.btn-shop:active{
     margin-top: 20px;
     float: right;
   }
-}
+/*}*/
 /* navbar button toggle at 1140 px instead of 768 (default) */
-@media (max-width: 1140px) {
+/*@media (max-width: 1140px) {*/
     .navbar-header {
         float: none;
     }
