@@ -57,8 +57,11 @@ p, .p-large, .p-small {
   font-size: 20px;
 }
 @media (max-width:400px) {
-  h2{
+  h1{
     font-size: 60px;
+  }
+  h2{
+    font-size: 50px;
   }
   .p-large{
     font-size: 20px;
@@ -68,6 +71,10 @@ p, .p-large, .p-small {
   }
   #langbar p{
     font-size: 12px;
+    float: left;
+  }
+  .parallax-window{
+    padding-top: 120px;
   }
 }
 .parallax-window {
