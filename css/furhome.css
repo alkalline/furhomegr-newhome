@@ -9,17 +9,17 @@
   }
  }
 /* Background block under content text for readability. Client requested it OFF*/
-/*.contblok{
-  background-color: rgba(33, 33, 33,0.2);
+.contblok{
+  background-color: rgba(33, 33, 33, 0.3);
   border-radius: 6px;
-}*/
+}
 .row{
   padding: 0px;
   margin: 0px;
 }
 body {
   background-color: #fff;
-  background-image: url('../images/bg-main.jpg'); /* Fallback bkg img*/
+  background-image: url('../images/bg-main-bk.jpg'); /* Fallback bkg img*/
   background-repeat: repeat;
   background-position: center;
   background-attachment: fixed;
