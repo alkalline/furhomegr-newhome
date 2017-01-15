@@ -277,9 +277,20 @@ a.btn-shop:hover, a.btn-shop:active{
 }
 
 #footer{
+  padding-bottom: 52px;
   background-color: #333;
   color: #fff;
 }
 #footer a{
   color: #fff;
+}
+
+#newsletter{
+  position: fixed;
+  height: 52px;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0px;
+  color: #000;
+  text-shadow: 0 0 0 #000;
 }
