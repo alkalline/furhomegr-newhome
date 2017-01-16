@@ -287,6 +287,8 @@ a.btn-shop:hover, a.btn-shop:active{
 
 #newsletter{
   position: fixed;
+  padding-top: 4px;
+  padding-bottom: 4px;
   height: 52px;
   bottom: 0;
   width: 100%;
