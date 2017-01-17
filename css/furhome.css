@@ -4,9 +4,7 @@
 
 /* On big screens we want content to occupy more space than the standard Bootstrap container*/
 @media (min-width:1400px) {
-  .container {
-    width: 82%;
-  }
+  .container {width: 82%;}
  }
 /* Background block under content text for readability. Client requested it OFF*/
 .contblokb{
@@ -17,10 +15,7 @@
   background-color: rgba(111, 111, 111, 0.2);
   border-radius: 6px;
 }
-.row{
-  padding: 0px;
-  margin: 0px;
-}
+.row{padding: 0px; margin: 0px;}
 body {
   background-color: #fff;
   background-image: url('../images/bg-main-bk.jpg'); /* Fallback bkg img*/
@@ -38,15 +33,9 @@ h1, h2, h3 {
   color: #fff;
   text-shadow: 1px 2px 3px #000;
 }
-h1 {
-  font-size: 80px;
-}
-h2 {
-  font-size: 80px;
-}
-h3 {
-  font-size: 40px;
-}
+h1 {font-size: 80px;}
+h2 {font-size: 80px;}
+h3 {font-size: 40px;}
 p, .p-large, .p-small {
   /*background-color: rgba(0,0,0,0.15);*/
   font-family: 'Roboto', sans-serif;
@@ -54,22 +43,15 @@ p, .p-large, .p-small {
   font-weight: 400;
   padding: 20px;
 }
-.p-large {
-  font-size: 30px;
-}
-.p-small {
-  font-size: 20px;
+.p-large {font-size: 30px;}
+.p-small {font-size: 20px;}
+@media (max-width:996px) {
+  h2{font-size: 65px;}
 }
 @media (max-width:400px) {
-  h1{
-    font-size: 60px;
-  }
-  h2{
-    font-size: 50px;
-  }
-  .p-large{
-    font-size: 20px;
-  }
+  h1{font-size: 60px;}
+  h2{font-size: 50px;}
+  .p-large{font-size: 20px;}
   .navbar-inverse .navbar-toggle {
     margin-right: -15px;
   }
@@ -77,9 +59,7 @@ p, .p-large, .p-small {
     font-size: 12px;
     float: left;
   }
-  .parallax-window{
-    padding-top: 120px;
-  }
+  .parallax-window{padding-top: 120px;}
 }
 .parallax-window {
     min-height: 800px;
@@ -132,7 +112,7 @@ a.btn-shop:hover, a.btn-shop:active{
 #langbar a{color: #eee;}
 
 .navbar-inverse {
-  padding: 0px 15px;
+  padding: 0px 5px 0px 15px;
 	color: #111;
 	border: 0px;
 	border-bottom: 1px solid #e4dbd2;
@@ -145,7 +125,7 @@ a.btn-shop:hover, a.btn-shop:active{
 .navbar-inverse .navbar-nav li a {
   padding-top: 22px;
   min-height: 99px;
-  max-width: 145px;
+  max-width: 133px; /*145 for ru*/
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-transform: uppercase;
@@ -154,12 +134,12 @@ a.btn-shop:hover, a.btn-shop:active{
   text-align: center;
   line-height: 19px;
 	border-bottom: 4px solid transparent; }
-@media (max-width:1440px) {
+@media (max-width:1460px) {
   body{margin-top: 69px;}
   .navbar-inverse .navbar-nav li a {
     padding-top: 18px;
     font-size: 14px;
-    max-width: 125px;
+    max-width: 105px; /*125 for ru*/
     padding-left: 4px;
     padding-right: 4px;
   }
@@ -263,7 +243,13 @@ a.btn-shop:hover, a.btn-shop:active{
   font-weight: 400;
   background-color: #f7f7f7;
   color: #0a0a0a;
+  /*max-width: 115px;*/
 }
+/*@media (max-width:1440px) {
+  .navbar-inverse .navbar-nav li a.wholesale {
+    max-width: 95px;
+  }
+}*/
 
 #footer{
   padding-bottom: 52px;
