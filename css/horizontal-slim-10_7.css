@@ -4,7 +4,7 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 #mc_embed_signup form {text-align:center; padding:5px 0 5px 0;}
 .mc-field-group { display: inline-block; } /* positions input field horizontally */
 #mc_embed_signup input.email {font-family:'Roboto',sans-serif; font-size: 15px; border: 1px solid #ABB0B2;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #fff; box-sizing:border-box; height:30px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top;}
-#mc_embed_signup label {display:inline-block; font-family:'Roboto',sans-serif; font-size:14px;}
+#mc_embed_signup label {display:inline-block; font-family:'Roboto',sans-serif; font-size:14px; font-weight: 100; color:#333;}
 #mc_embed_signup .clear {display: inline-block;} /* positions button horizontally in line with input */
 #mc_embed_signup .button {font-size: 14px; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: #000; background-color: #aaa; box-sizing:border-box; height:30px; line-height:30px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s;}
 #mc_embed_signup .button:hover {background-color:#777; cursor:pointer;}
@@ -24,12 +24,12 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
     #mc_embed_signup label {display:block; font-size:12px;}
     #mc_embed_signup input.email{font-size: 14px; height:22px;}
     /*#mc_embed_signup .clear {display: block; width: 100% }*/
-    #mc_embed_signup .button{height:22px;}
+    #mc_embed_signup .button{height:22px; line-height: 22px;}
 }
 @media (max-width:550px) {
     #mc_embed_signup label {display:block; font-size:12px;}
     #mc_embed_signup input.email{font-size: 14px; width: 60%; height:22px;}
     /*#mc_embed_signup .clear {display: block; width: 100% }*/
-    #mc_embed_signup .button{width:30%; height:22px; padding: 0 2px;}
+    #mc_embed_signup .button{width:30%; height:22px; padding: 0 2px; line-height: 22px;}
     #newsletter{height: 56px;}
 }
