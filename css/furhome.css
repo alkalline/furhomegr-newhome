@@ -4,7 +4,7 @@
 
 /* On big screens we want content to occupy more space than the standard Bootstrap container*/
 @media (min-width:1400px) {
-  .container {width: 82%;}
+  .container {width: 83%;}
  }
 /* Background block under content text for readability. Client requested it OFF*/
 .contblokb{
@@ -95,10 +95,10 @@ a.btn-shop:hover, a.btn-shop:active{
   /*background: rgba(0,0,0,0.3);*/ /*none for true ghost btn*/
   /*color: #fff;*/
   color: #333;
-  background-color: #e4dbd2;
-
+  background-color: #e4dbd2;}
+@media (max-width:1200px){
+  a.btn-shop, a.btn-shop:visited{font-size: 20px;}
 }
-
 #langbar{
   margin-left: -30px;
   margin-right: -30px;
@@ -117,11 +117,6 @@ a.btn-shop:hover, a.btn-shop:active{
 	border: 0px;
 	border-bottom: 1px solid #e4dbd2;
 	background-color: rgb(255,255,255); }
-/*.navbar-inverse .navbar-nav ul{
-  line-height: 69px;
-  min-height: 99px;
-  vertical-align: bottom;
-}*/
 .navbar-inverse .navbar-nav li a {
   padding-top: 22px;
   min-height: 99px;
@@ -155,7 +150,6 @@ a.btn-shop:hover, a.btn-shop:active{
 	-o-transition: all 0.2s ease-out;
 	border-bottom: 4px solid #e4dbd2; }
 .navbar-inverse .navbar-brand {
-  max-height: 99px;
   height: 99px;
   max-height: 100%;
   line-height: 99px;
@@ -245,6 +239,12 @@ a.btn-shop:hover, a.btn-shop:active{
   color: #0a0a0a;
   /*max-width: 115px;*/
 }
+/*in bigger screens we hant the menu to keep looking closer to what it looks like in 1650x1080 mode*/
+@media (min-width: 1900px){
+  .navbar-inverse .navbar-nav{padding-right: 125px;}
+  .navbar-inverse .navbar-brand{padding-left: 125px;}
+}
+
 /*@media (max-width:1440px) {
   .navbar-inverse .navbar-nav li a.wholesale {
     max-width: 95px;
@@ -255,6 +255,7 @@ a.btn-shop:hover, a.btn-shop:active{
   padding-bottom: 52px;
   background-color: #333;
   color: #fff;
+  border-top: 1px solid #b8976b;
 }
 #footer a{color: #fff;}
 
