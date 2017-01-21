@@ -57,7 +57,8 @@ p, .p-large, .p-small {
   }
   #langbar p{
     font-size: 12px;
-    float: left;
+    /*float: left;*/
+    padding-right: 30px;
   }
   .parallax-window{padding-top: 120px;}
 }
@@ -116,7 +117,7 @@ a.btn-shop:hover, a.btn-shop:active{
 	color: #111;
 	border: 0px;
 	border-bottom: 1px solid #e4dbd2;
-	background-color: rgb(255,255,255); }
+	background-color: #eee; }
 .navbar-inverse .navbar-nav li a {
   padding-top: 22px;
   min-height: 99px;
@@ -240,9 +241,17 @@ a.btn-shop:hover, a.btn-shop:active{
   /*max-width: 115px;*/
 }
 /*in bigger screens we hant the menu to keep looking closer to what it looks like in 1650x1080 mode*/
+@media (min-width: 1600px){
+.navbar-inverse .navbar-nav{padding-right: 4%;}
+.navbar-inverse .navbar-header{padding-left: 4%;}
+}
+@media (min-width: 1700px){
+  .navbar-inverse .navbar-nav{padding-right: 7%;}
+  .navbar-inverse .navbar-header{padding-left: 7%;}
+}
 @media (min-width: 1900px){
-  .navbar-inverse .navbar-nav{padding-right: 125px;}
-  .navbar-inverse .navbar-brand{padding-left: 125px;}
+  .navbar-inverse .navbar-nav{padding-right: 10%;}
+  .navbar-inverse .navbar-brand{padding-left: 10%;}
 }
 
 /*@media (max-width:1440px) {
