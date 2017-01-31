@@ -31,6 +31,7 @@ p, .p-large, .p-small {font-family: 'Roboto', sans-serif; text-align: justify; f
 }
 .parallax-window {min-height: 800px; padding-top: 180px; background: none;}
 a, a:active, a:visited{color: #333; text-shadow: none;}
+a:hover{text-decoration: none;}
 a.btn-shop, a.btn-shop:visited{background:rgba(0,0,0,0.3); color:#fff; display:inline-block; border:2px solid #e4dbd2; border-radius:4px; padding:30px 55px; margin:30px 0px; font-family:'Roboto', sans-serif; font-weight:900; font-size:30px; text-align:center; width:50%; min-width:250px; transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out;}
 a.btn-shop:hover, a.btn-shop:active{color: #333; background-color: #e4dbd2;}
 @media (max-width:1200px){
@@ -106,6 +107,7 @@ a.btn-shop:hover, a.btn-shop:active{color: #333; background-color: #e4dbd2;}
 
 #footer{padding-bottom: 52px; background-color: #333; color: #fff; border-top: 1px solid #b8976b;}
 #footer a{color: #fff;}
+#footer a:hover{color: #e4dbd2;}
 
 /* MailChimp Form Embed Code - Horizontal Super Slim - 12/16/2015 v10.7
 Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
